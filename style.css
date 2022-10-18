@@ -1,22 +1,37 @@
-#overskrift-container {
-    padding: 2px;
+#container {
+    padding: 6px;
     background-color: #404040;
+
+    /*width: fit-content;*/
+    width: 600px;
+
+    margin: 0 auto; /*Gjør alt til å gå til midten*/
 }
 
+/*Overskriften på nettsiden*/
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 
     color: white;
     background-color: #3f5765;
+    border: 1px solid black;
 
-    padding-top: 19px;
-    padding-bottom: 19px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
-    margin: 6px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+/*tabelen for nettsiden*/
+#table-container {
+    background-color: #bdd4de;
+    padding: 7px;
+
 }
 
 table {
-    background-color: #bdd4de;
+    border-collapse: collapse;
 }
 
 thead {
@@ -26,11 +41,34 @@ thead {
     color: white;
 }
 
+th {
+    padding: 7px;
+
+    border: 1px solid white;
+}
+
 td {
     padding: 7px;
+    
+    border: 1px solid white;
 }
 
 table>tbody>tr:nth-child(odd) {
     background-color: #f6f5f4;
 }
 
+table>tbody>tr:last-child {
+    box-shadow: 0px 2px 1px black;
+}
+
+
+/*Bildene for nettsiden*/
+#img-container {
+    padding-top: 7px;
+}
+
+
+img {
+    height: 300px;
+    object-fit: contain;
+}
