@@ -26,7 +26,11 @@ thead {
     color: white;
 }
 
-th {
-    
+td {
+    padding: 7px;
+}
+
+table>tbody>tr:nth-child(odd) {
+    background-color: #f6f5f4;
 }
 
