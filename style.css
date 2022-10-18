@@ -1,0 +1,32 @@
+#overskrift-container {
+    padding: 2px;
+    background-color: #404040;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: white;
+    background-color: #3f5765;
+
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+    margin: 6px;
+}
+
+table {
+    background-color: #bdd4de;
+}
+
+thead {
+    background-color: #3f4259;
+
+    font-weight: bold;
+    color: white;
+}
+
+th {
+    
+}
+
